@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Divinità</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-witdh, initial-scale=1"  />
+	<meta name="keyword" content="arte, antica grecia, apollo aleo, magna grecia"  />
+	<meta name="description" content="raccolta digitale museo civico archeologico cirò marina"  />
+	<meta name="author" content="Carlotta Latella"  />
+	<link rel="stylesheet" href="style.css"  />
+</head>
+<body>
+<style>
+ body {
+  background-image: url("immagini/im4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  height:100%;
+}
+</style>
+<header>
+<div class="header-catalogo">
+<h3>Museo Civico Archeologico Cirò Marina</h3>
+</div>
+<div class="navbar">
+<a href="index.html" title="Link alla Home">Home</a>
+<a href="#" title="Link all'Introduzione">Introduzione</a>
+<a href="list-items.html" title="Link al Catalogo">Catalogo</a>
+</div>
+</header>
+<div class="row">
+  <div class="left">
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Cerca..." title="Cerca...">
+
+<ul id="myMenu">
+  <li><a href="index.html">La storia</a></li>
+  <li><a href="index.html">Scavi e Reperti</a></li>
+  <li><a href="index.html">Il progetto</a></li>
+  <li><a href="#">Linea del Tempo</a></li>
+  <li><a href="#" class="active">Catalogo</a></li>
+</ul>
+</div>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+<aside>
+<div class="dropdown-3">
+  <button class="dropbtn-3">Accedi alle altre opere</button>
+  <div class="dropdown-content-3">
+    <a href="#">Manufatti in ceramica</a>
+    <a href="#">Tempio</a>
+    <a href="#">Statua in marmo- Acrolito di Apollo Aleo</a>
+	<a href="#">Statuette votive - Demetra</a>
+	<a href="#">Dall'archivio - Il Museo nei primi anni dall'apertura</a>
+	<a href="#">Inaugurazione del nuovo allestimento - Il Museo si impreziosisce dei reperti dell'età Brettia e dell'Alto Medioevo</a>
+	<a href="#">Dall'archivio - L'ingresso del Museo nell'Associazione Nazionale Piccoli Musei</a>
+	<a href="#">Riapertura del Museo - Il servizio del Tg3 annuncia la riapertura del Museo dopo il periodo di lockdown</a>
+  </div>
+</div>
+</aside>
+
+<aside>
+<div class="dropdown-4">
+  <button class="dropbtn-4">Filtri</button>
+  <div class="dropdown-content-4">
+    <a href="divinità.html">Divinità</a>
+    <a href="#">Arte antica</a>
+    <a href="#">Architettura arcaica</a>
+  </div>
+</div>
+</aside>
+
+<div class="header-divinità">
+<h1>Demetra</h1>
+<p-3>Demetra (in greco antico: Δημήτηρ?, Dēmḕtēr) è una divinità della religione greca, figlia di Crono e Rea, che presiedeva la natura, i raccolti e le messi. Associata all'agricoltura, alle stagioni e alla legge sacra, lei e la figlia Persefone sono inoltre intimamente connesse con la religione misterica, e in particolare con i misteri eleusini. Nella mitologia romana la sua figura corrisponde a quella di Cerere. Plutarco identifica Demetra anche con la dea egizia Iside</p-3>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="immagini/demetra1.jpg">
+      <img src="immagini/demetra1.jpg" alt="Demetra">
+    </a>
+    <div class="desc"><a href="metadati.html">Tutti i metadati</a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="immagini/demetra2.jpeg">
+      <img src="immagini/demetra2.jpeg" alt="Demetra">
+    </a>
+    <div class="desc"><a href="metadati.html">Tutti i metadati</a></div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="immagini/demetra.jpeg">
+      <img src="immagini/demetra.jpeg" alt="Demetra">
+    </a>
+    <div class="desc"><a href="list-items.html">Tutti i metadati</a></div>
+  </div>
+</div>
+<div class="clearfix"></div>
+<div id="push">
+<div class="impaginazione">
+  <a href="#">&laquo;</a>
+  <a class="active" href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">&raquo;</a>
+</div>
+</div>
+<div class="footer-1">
+&copy;Carlotta Latella 2024 - Corso di Digital Humanities e Patrimonio culturale
+</div>

@@ -1,0 +1,1190 @@
+html, body { 
+    height:100%;
+	margin:0px;
+	font-family: Garamond;
+
+}
+
+/*
+	header
+*/
+.header-index {
+	text-align: center;
+	color: white;
+	border-style: outset;
+	border-color: orange;
+	font-family: Garamond;
+	font-size: 40px;
+}
+/*
+   navbar
+*/
+
+.nav-index {
+  background-color: orange;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  st-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Garamond;
+  font-size: 30px;
+ }
+.nav-index a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-index a:hover {
+  background-color: orange;
+}
+
+.first-section-index {background-color: white;
+  opacity: 0.8;
+  width: auto;
+  border: 50px orange;
+  padding: 50px;
+  margin: 150px;
+  font-family: Garamond; 
+}
+.first-section-index h2 {
+           color: orange;
+		   text-align: center;
+		   font-size: 40px;
+}
+.first-section-index p {
+           text-align: center;
+		   font-size:30px;
+}
+
+.first-section-index p a {
+          text-decoration:none;
+		  padding: 20px 35px;
+          color: orange;
+	      font-weight:bold;	                
+}
+
+.first-section-index p a:hover {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.second-section-index {background-color: white;
+  opacity: 0.8;
+  margin: 150px;
+  width: 40%;
+  border: 50px orange;
+  padding: 50px;
+  font-family: Garamond;
+}
+.second-section-index h2 {
+           color: orange;
+		   text-align: center;
+		   font-size: 40px;
+}
+.second-section-index p {
+           text-align: left;
+		   font-size:30px;
+}
+
+.second-section-index p a {
+          text-decoration:none;
+		  padding: 20px 35px;
+          color: orange;
+	      font-weight:bold;	                
+}
+
+.second-section-index p a:hover {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.second-section-index img {
+           width:70%;
+		   float:right;
+}
+
+
+.third-section-index {background-color: white;
+  opacity: 0.8;
+  width: auto;
+  border: 50px orange;
+  padding: 50px;
+  margin: 150px;
+  font-family: Garamond;
+  position: static;
+
+}
+.third-section-index h2 {
+           color: orange;
+		   text-align: center;
+		   font-size: 40px;
+}
+.third-section-index p {
+           text-align: center;
+		   font-size:30px;
+}		
+
+.third-section-index p a {
+          text-decoration:none;
+		  padding: 20px 35px;
+          color: orange;
+	      font-weight:bold;	                
+}
+
+.third-section-index p a:hover {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.article-index 	   {background-color: white;
+  opacity: 0.8;
+  width: auto;
+  padding: 30px;
+  margin-top:150px;
+  margin-right:400px;
+  float:left;
+  font-family: Garamond;
+ 
+}
+.article-index h1 {
+         color: orange;
+		 text-align: center;
+		 font-size: 40px;
+}
+.article-index p {
+      font-size: 20px;
+}
+.article-index p-1 {
+      font-size: 20px;
+}	
+  
+.article-index a {
+      padding: 20px 35px;
+      color: orange;
+	  font-weight:bold;
+	  text-decoration: none;
+}
+.article-index a:hover {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer-index, .push {
+	clear: both;
+	color: white;
+	font-family: Garamond;
+	font-size: 20px;
+	padding-top: 25px;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container-index {
+  max-width: 1000px;
+  margin-left: 420px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: block;
+}
+
+/* Next & previous buttons */
+.prev-index, .next-index {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: 3000px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next-index {
+  right: 393px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev-index:hover, .next-index:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+/* impaginazione */
+.impaginazione a {
+  color: black;
+  padding: 8px 16px;
+  position: relative;
+  left:680px;
+  top: 20px;
+  text-decoration: none;
+  transition: background-color .3s;
+  font-family: Garamond;
+  font-size: 20px;
+}
+
+.impaginazione a.active {
+  background-color: orange;
+  color: white;
+}
+
+.impaginazione a:hover:not(.active) 
+{background-color: orange;
+color:white;
+}
+
+.footer-1, .impaginazione-1, .impaginazione {
+	height: 50px;
+	clear: both;
+}
+.footer-1 { 
+    color: black;
+	font-family: Garamond;
+	font-size: 20px;
+	padding-top: 25px;	
+}
+.header-catalogo { border-style: outset;
+	border-color: orange;
+    text-align: center;
+	color: black;
+	font-family: Garamond;
+	font-size:30px;
+}
+.navbar { 
+  color: white;
+  padding: 15px 25px;
+  text-align: left;
+  text-decoration: none;
+  display: inline;
+  st-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Garamond;
+  float: left;
+ }
+.navbar a
+ {
+  display: block;
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover
+{
+ background-color: orange;
+  color:white;
+}
+.navbar a.active {
+        background-color:light-orange;
+		color:black;
+}
+.navbar a.active:hover {
+                color: white;
+}				
+.row  {
+      float: left;
+}	  
+/* Style the search box */
+#mySearch {
+  width: 20%;
+  font-size: 18px;
+  padding: 11px;
+  border: 1px solid;
+  color: black;
+}
+
+/* Style the navigation menu */
+#myMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width:20%;
+}
+
+/* Style the navigation links */
+#myMenu li a {
+  padding: 12px;
+  text-decoration: none;
+  color: black;
+  display: block;
+}
+
+#myMenu li a:hover {
+         color:white;
+         background-color: orange;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #4d2600;
+  overflow:hidden;
+  width:30%;
+  position: relative;
+  right:-112px;
+  bottom:70px;
+  top:-370px;
+  left:560px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  font-family:Garamond;
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+          background-color: orange;
+}
+
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: orange;
+  color: white;
+}
+ 
+
+.card-1 {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  transition: 0.3s;
+  width: 30%;
+  margin-left:560px;
+  margin-top:-350px;
+  
+}
+
+.card-1 a { 
+  display: block;
+  background-color: #4d2600;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+ }
+ 
+ .card-1 a:hover {
+         background-color:black;
+		 color:white;
+ }
+		 
+
+/* On mouse-over, add a deeper shadow */
+.card-1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.90);
+}
+
+/* Add some padding inside the card container */
+.container-1 {
+  padding: 2px 16px;
+}
+
+.card-2 {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  transition: 0.3s;
+  width: 30%;
+  margin-left:560px;
+  margin-top:15px;
+}
+
+.card-2 a { 
+  display: block;
+  background-color: #4d2600;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+ }
+ 
+ .card-2 a:hover {
+         background-color:black;
+		 color:white;
+ }
+
+/* On mouse-over, add a deeper shadow */
+.card-2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.90);
+}
+
+/* Add some padding inside the card container */
+.container-2 {
+  padding: 2px 16px;
+}
+
+.card-3 {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  transition: 0.3s;
+  width: 30%;
+  margin-left:560px;
+  margin-top:15px;
+}
+
+.card-3 a { 
+  display: block;
+  background-color: #4d2600;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+ }
+ 
+ .card-3 a:hover {
+         background-color:black;
+		 color:white;
+ }
+
+/* On mouse-over, add a deeper shadow */
+.card-3:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.90);
+}
+
+/* Add some padding inside the card container */
+.container-3 {
+  padding: 2px 16px;
+}   
+
+.card-4 {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  transition: 0.3s;
+  width: 30%;
+  margin-left:560px;
+  margin-top:15px;
+}
+
+.card-4 a { 
+  display: block;
+  background-color: #4d2600;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+ }
+ 
+ .card-4 a:hover {
+         background-color:black;
+		 color:white;
+ }
+/* On mouse-over, add a deeper shadow */
+.card-4:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.90);
+}
+
+/* Add some padding inside the card container */
+.container-4 {
+  padding: 2px 16px;
+}       
+
+.card-5 {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  transition: 0.3s;
+  width: 30%;
+  margin-left:560px;
+  margin-top:15px;
+}
+
+.card-5 a { 
+  display: block;
+  background-color: #4d2600;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+ }
+ 
+ .card-5 a:hover {
+         background-color:black;
+		 color:white;
+ }
+
+/* On mouse-over, add a deeper shadow */
+.card-5:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.90);
+}
+
+/* Add some padding inside the card container */
+.container-5 {
+  padding: 2px 16px;
+}   
+
+.card-6 {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  transition: 0.3s;
+  width: 30%;
+  margin-left:560px;
+  margin-top:15px;
+}
+
+.card-6 a { 
+  display: block;
+  background-color: #4d2600;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+ }
+ 
+ .card-6 a:hover {
+         background-color:black;
+		 color:white;
+ }
+
+/* On mouse-over, add a deeper shadow */
+.card-6:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.90);
+}
+
+/* Add some padding inside the card container */
+.container-6 {
+  padding: 2px 16px;
+}  
+
+.card-7 {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  transition: 0.3s;
+  width: 30%;
+  margin-left:560px;
+  margin-top:15px;
+}
+
+.card-7 a { 
+  display: block;
+  background-color: #4d2600;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+ }
+ 
+ .card-7 a:hover {
+         background-color:black;
+		 color:white;
+ }
+
+/* On mouse-over, add a deeper shadow */
+.card-7:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.90);
+}
+
+/* Add some padding inside the card container */
+.container-7 {
+  padding: 2px 16px;
+}   
+
+.card-8 {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  transition: 0.3s;
+  width: 30%;
+  margin-left:560px;
+  margin-top:15px;
+}
+
+.card-8 a { 
+  display: block;
+  background-color: #4d2600;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+ }
+ 
+ .card-8 a:hover {
+         background-color:black;
+		 color:white;
+ }
+
+/* On mouse-over, add a deeper shadow */
+.card-8:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.90);
+}
+
+/* Add some padding inside the card container */
+.container-8 {
+  padding: 2px 16px;
+}    
+
+.card-9 {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  transition: 0.3s;
+  width: 30%;
+  margin-left:560px;
+  margin-top:15px;
+}
+
+.card-9 a { 
+  display: block;
+  background-color: #4d2600;
+  color: white;
+  text-align: center;
+  padding: 13px 15px;
+  text-decoration: none;
+ }
+ 
+ .card-9 a:hover {
+         background-color:black;
+		 color:white;
+ }
+
+/* On mouse-over, add a deeper shadow */
+.card-9:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.90);
+}
+
+/* Add some padding inside the card container */
+.container-9 {
+  padding: 2px 16px;
+}  
+
+.article-1	   {background-color: white;
+  opacity: 0.8;
+  width: 1000px;
+  height: 800px;
+  padding: 30px;
+  margin-top:30px;
+  margin-left: 300px;
+  font-family: Garamond;
+   
+}
+.article-1 h1 {
+         color: orange;
+		 text-align: center;
+		 font-size: 30px;
+}
+.article-1 h2 {
+         color: orange;
+		 text-align: center;
+		 font-size: 30px;
+}
+.article-1 p {
+      font-size: 25px;
+	  font-style:italic;
+	  font-weight:bold;
+	  text-align:center;
+}	  
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 40%;
+  margin-top: -370px;
+  margin-left: 500px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.2s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 410px;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+   left: 510px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.card-header {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  width: 40%;
+  margin-left:502px;
+  margin-top:-5px;
+  font-family: Garamond;
+  font-weight: bold;
+  font-style: oblique;
+  font-size:20px;
+}
+
+.container-header {
+  padding: 2px 16px;
+}  
+
+.card-body {
+  /* Add shadows to create the "card" effect */
+  background-color: orange;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.80);
+  width: 40%;
+  margin-left:502px;
+  margin-top:15px;
+  font-family: Garamond;
+  font-size: 20px;
+}
+
+.card-body h4 {
+       font-weight: bold;
+	   font-weight: 900;
+}
+
+.card-body a {
+       
+	   font-style:italic;
+	   text-decoration:none;
+	   color:white;
+}
+.card-body a:hover { 
+           text-decoration:underline;
+		   color: white;
+
+}
+
+.container-body {
+  padding: 2px 16px;
+} 
+
+.btn-group button {
+  background-color: #4d2600; 
+  border: 1px white; 
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: right; /* Float the buttons side by side */
+  margin-right: 70px;
+  text-decoration:none;
+}
+
+.btn-group button a {
+      font-family:Garamond;
+      text-decoration:none;
+	  color:white;
+}
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+  background-color: orange;
+}
+
+html, aside h3 { 
+      font-family: Garamond;
+	  float: right;
+}	  
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#4d2600;
+  font-family: Garamond;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  top: 390px;
+  left: -110px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: orange;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: orange;}
+
+
+/* Dropdown Button */
+.dropbtn-1 {
+  background-color:#4d2600;
+  font-family: Garamond;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-1 {
+  position: relative;
+  top: -4577px;
+  left: 3px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-1 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-1 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-1 a:hover {background-color: orange;}
+
+/* Show the dropdown menu on hover */
+.dropdown-1:hover .dropdown-content-1 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-1:hover .dropbtn-1 {background-color: orange;}
+
+
+/* Dropdown Button */
+.dropbtn-2 {
+  background-color:#4d2600;
+  font-family: Garamond;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-2 {
+  position: relative;
+  top: 340px;
+  left: 70px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-2 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-2 a:hover {background-color: orange;}
+
+/* Show the dropdown menu on hover */
+.dropdown-2:hover .dropdown-content-2 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-2:hover .dropbtn-2 {background-color: orange;}
+
+/* Dropdown Button */
+.dropbtn-3 {
+  background-color:#4d2600;
+  font-family: Garamond;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-3 {
+  position: relative;
+  top: 0px;
+  left: 3px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-3 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-3 a:hover {background-color: orange;}
+
+/* Show the dropdown menu on hover */
+.dropdown-3:hover .dropdown-content-3 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-3:hover .dropbtn-3 {background-color: orange;}
+
+/* Dropdown Button */
+.dropbtn-4 {
+  background-color:#4d2600;
+  font-family: Garamond;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown-4 {
+  position: relative;
+  top: -50px;
+  left: 180px;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content-4 {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content-4 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content-4 a:hover {background-color: orange;}
+
+/* Show the dropdown menu on hover */
+.dropdown-4:hover .dropdown-content-4 {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown-4:hover .dropbtn-4 {background-color: orange;}
+
+
+
+.header-divinità { 
+    width: 60%;
+	border: 15px;
+    border-style: outset;
+	border-color: black;
+	background-color:orange;
+	color: white;
+    text-align: center;
+	font-family: Garamond;
+	margin-top: -470px;
+	padding: 30px;
+	float: right;
+	margin-right: 200px;
+
+}
+
+.header-divinità h1 {  
+            color:black;
+            font-weight: bold;
+			font-style: italic;
+			font-size:30px;
+}
+
+.header-divinità p-3 {
+           font-size:20px;
+}
+
+div.gallery {
+  border: 1px solid #4d2600;
+  margin-top: -150px; 
+}
+
+div.gallery:hover {
+  border: 1px solid #4d2600;
+  background-color: orange;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+div.desc a {
+     text-decoration:none;
+	 font-family: Garamond;
+	 color:black;
+}  
+
+div.desc a:hover {
+         color:white;
+		 background-color:orange;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: right;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}

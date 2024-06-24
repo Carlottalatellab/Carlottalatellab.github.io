@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Catalogo</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-witdh, initial-scale=1"  />
+	<meta name="DC.Title" content="Museo Civico Archeologico Cirò Marina">
+    <meta name="DC.Creator" content="Carlotta Latella">
+    <meta name="DC.Date" content="giugno 2024">
+    <meta name="DC.Subject" content="arte, antica grecia, magna grecia, catalogo">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Publisher" content="Università di Bologna">
+    <meta name="DC.Format" content="HTML">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Rights" content="Accesso libero Creative Commons">
+	<link rel="stylesheet" href="style.css"  />
+</head>
+<body>
+<style>
+ body {
+  background-image: url("immagini/im4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+<header>
+<div class="header-catalogo">
+<h3>Museo Civico Archeologico Cirò Marina</h3>
+</div>
+<div class="navbar">
+<a href="index.html" title="Link alla Home">Home</a>
+<a href="#" title="Link all'Introduzione">Introduzione</a>
+<a href="#" class="active" title="Link al Catalogo">Catalogo</a>
+</div>
+</header>
+<div class="row">
+  <div class="left">
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Cerca..." title="Cerca...">
+
+<ul id="myMenu">
+  <li><a href="index.html">La storia</a></li>
+  <li><a href="index.html">Scavi e Reperti</a></li>
+  <li><a href="index.html">Il progetto</a></li>
+  <li><a href="#">Linea del Tempo</a></li>
+  <li><a href="#" class="active">Catalogo</a></li>
+</ul>
+</div>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+<div class="topnav">
+  <a class="active" href="#home">All</a>
+  <a href="#immagini">Foto</a>
+  <a href="#video">Video</a>
+  <a href="#documenti">Documenti</a>
+  <a href="#about">Contatti</a>
+</div>
+<div class="card-1">
+  <img src="immagini/demetra1.jpg" alt="Busto di Demetra" style="width:100%">
+  <div class="container-1">
+    <h4><b>Statua votiva</b></h4>
+    <p>Busto di Demetra, VII a.C</p>
+	<p><a href="metadati.html">Tutti i metadati</a></p>
+  </div>
+</div>
+
+<div class="card-2">
+  <img src="immagini/anfore.jpeg" alt="Anfore e manufatti in ceramica" style="width:100%">
+  <div class="container-2">
+    <h4><b>Manufatti in ceramica</b></h4>
+    <p>Anfore e utensili domestici, VII a.C</p>
+	<p><a href="#">Tutti i metadati</a></p>
+  </div>
+</div>
+
+<div class="card-3">
+  <img src="immagini/tempio.jpeg" alt="Tempio" style="width:100%">
+  <div class="container-3">
+    <h4><b>Tempio</b></h4>
+    <p>Resti dell'architrave di uno dei templi rivenuti durante gli scavi, VII a.C</p>
+	<p><a href="#">Tutti i metadati</a></p>
+  </div>
+</div>
+
+<div class="card-4">
+  <img src="immagini/apollo.jpeg" alt="Resti di Apollo Aleo" style="width:100%">
+  <div class="container-4">
+    <h4><b>Statua in marmo</b></h4>
+    <p>Acrolito di Apollo Aleo, IV a.C.</p>
+	<p><a href="#">Tutti i metadati</a></p>
+  </div>
+</div>
+
+<div class="card-5">
+  <img src="immagini/demetra.jpeg" alt="Statuette votive" style="width:100%">
+  <div class="container-5">
+    <h4><b>Statuette votive</b></h4>
+    <p>Demetra, dea della fertilità e dell'agricoltura, VII a.C.</p>
+	<p><a href="#">Tutti i metadati</a></p>
+  </div>
+</div>
+
+<div class="card-6">
+  <img src="immagini/img2.jpeg" alt="Foto" style="width:100%">
+  <div class="container-6">
+    <h4><b>	Dall'archivio</b></h4>
+    <p>Il Museo nei primi anni dall'apertura, (2010)</p>
+	<p><a href="#">Tutti i metadati</a></p>
+  </div>
+</div>
+
+<div class="card-7">
+  <img src="immagini/video.jpeg.png" alt="Video" style="width:100%">
+  <div class="container-7">
+    <h4><b>Inaugurazione del nuovo allestimento</b></h4>
+    <p>Il Museo si impreziosisce dei reperti dell'età Brettia e dell'Alto Medioevo, (2022)</p>
+	<p><a href="#">Guarda il video</a></p>
+  </div>
+</div>
+
+<div class="card-8">
+  <img src="immagini/img3.png" alt="Documenti" style="width:100%">
+  <div class="container-8">
+    <h4><b>Dall'archivio</b></h4>
+    <p>L'ingresso del Museo nell'Associazione Nazionale Piccoli Musei, (2020)</p>
+	<p><a href="https://www.ilcirotano.it/2020/12/23/il-museo-civico-e-archeologico-di-ciro-marina-nelle-cartoline-di-auguri-allitalia-dai-piccoli-musei-narranti/">Leggi l'articolo</a></p>
+  </div>
+</div>
+
+<div class="card-9">
+  <img src="immagini/video2.png" alt="Documenti" style="width:100%">
+  <div class="container-9">
+    <h4><b>Riapertura del Museo</b></h4>
+    <p>Il servizio del Tg3 annuncia la riapertura del Museo dopo il periodo di lockdown, (2021)</p>
+	<p><a href="#">Guarda il video</a></p>
+  </div>
+</div>
+
+<aside>
+<div class="dropdown-1">
+  <button class="dropbtn-1">Filtri</button>
+  <div class="dropdown-content-1">
+    <a href="divinità.html">Divinità</a>
+    <a href="#">Arte antica</a>
+    <a href="#">Architettura arcaica</a>
+  </div>
+</div>
+</aside>
+
+<div id="push">
+<div class="impaginazione">
+  <a href="#">&laquo;</a>
+  <a class="active" href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">&raquo;</a>
+</div>
+</div>
+
+<section>
+<div class="article-1">
+<h1>La Magna Grecia</h1>
+<h2>Curiosità etimologiche</h2>
+<p>La Magna Grecia (in greco antico: Μεγάλη Ἑλλάς?, Megálē Hellás, pronuncia /me.ɡá.lɛː hel.lás/; in latino Magna Graecia, pronuncia classica [ˈmaŋ.na ˈɡrae̯.ki.a]) è l'area geografica della penisola italiana mediterranea che fu anticamente colonizzata dai Greci a partire dall'VIII secolo a.C. Varie le ipotesi sull’origine del nome: il termine si spiegherebbe con la prosperità e lo splendore culturale ed economico della regione al tempo dei pitagorici (VI-V sec. a.C.); o sarebbe stato dato dai coloni achei alla regione d’insediamento in contrapposizione all’angusta madrepatria. Secondo un'altra spiegazione invece l’aggettivo Μεγάλη non rappresenta un comparativo per sottolineare la superiorità delle colonie occidentali rispetto alla madre patria, ma esprime la condizione di ‘crescita’ rispetto ad un inizio di dimensione limitata da riferirsi all’area delle città ‘achee’ della Ἑλλάς delle origini in età storica.<p>Precisamente, sebbene l'espressione Megálē Hellás sia attestata per la prima volta relativamente tardi, nel III secolo a.C. da Timeo di Tauromenio e poi nel II secolo a.C. in un passo dello storico greco Polibio, si ritiene tuttavia che la genesi del concetto sottostante sia avvenuta nel V secolo a.C., che segna l'apogeo della storia della Magna Grecia, in relazione ai fatti politici, economici, culturali e artistici raggiunti in quel periodo.</p>
+<p>La denominazione Megálē Hellás non fu dunque una definizione di origine popolare ed emotiva ma è stata motivatamente creata dagli Achei pitagorici e si riferisce, orgogliosamente, alla rete di colonie fondate o controllate dagli stessi Achei tra fine VI e metà del V secolo sotto la regìa di Crotone; questa polis achea, dopo aver distrutto Sibari nel 510 a.C., e prima ancora insieme alle altre achee la ionica Siris, guida in accordo con altre realtà storico-politiche un ancor più grande 'impero' che abbraccia etnicamente fino a Poseidonia gran parte dell'Italia meridionale continentale (esclusa Reggio a sud e Taranto a nord).</p></p>
+</div>
+</section>
+<div class="footer-1">
+&copy;Carlotta Latella 2024 - Corso di Digital Humanities e Patrimonio culturale
+</div>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Museo Civico Archeologico Cirò Marina</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-witdh, initial-scale=1"  />
+	<meta name="DC.Title" content="Museo Civico Archeologico Cirò Marina">
+    <meta name="DC.Creator" content="Carlotta Latella">
+    <meta name="DC.Date" content="giugno 2024">
+	<meta name="DC.Description" content="risorsa digitale per il Museo Civico Archeologico di Cirò Marina">
+    <meta name="DC.Subject" content="arte, magna grecia, scavi archeologici, catalogo">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Publisher" content="Università di Bologna">
+    <meta name="DC.Format" content="HTML">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Rights" content="Accesso libero Creative Commons">
+	<link rel="stylesheet" href="style.css"  />
+</head>
+<body>
+<style>
+ body {
+  background-image: url("immagini/header.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+<!-- prima parte -->
+<header-index>
+<div id="top" class="header-index">
+<h1>Museo Civico Archeologico di Cirò Marina</h1>
+</div>
+</header>
+<!--navbar -->
+<div class="nav-index">
+<a href="#" class="active" title="Link alla home">Home</a>
+      <a href="#" title="Link all'introduzione">Introduzione</a>
+      <a href="list-items.html" target="_blank" title="Link al catalogo">Catalogo</a>
+</div>
+<!-- suddivisione in sezioni -->
+<section>
+<div class="first-section-index">
+<h2>La storia</h2>
+<p>Il <b>Museo Civico Archeologico di Cirò Marina</b> ha sede in piazza Diaz all’interno dell’ex <b>Palazzo Porti</b>. L’edificio dal 1996 è sede del “Punto Soprintendenza” del <b>Ministero pei i beni e le attività culturali e per il turismo</b> e dal 1998 è aperto al pubblico come museo.
+L’esposizione museale è organizzata su due piani e raccoglie sia materiale recuperato fin dai primi anni ’70 dal gruppo locale <b>“Archeoclub”</b> e sia reperti oggetto di scavi sistematici della soprintendenza archeologica.
+<p><a href="#" title="Link all'introduzione">Link all'introduzione!</a></p></p>
+</div>
+</section>
+<section>
+<div class="second-section-index">
+<h2>Scavi e reperti</h2>
+<img src="immagini/paolo orsi.jpg" alt="Paolo Orsi"  />
+<p>Al piano terra sono esposti reperti provenienti dall’area del <b>santuario dedicato ad Apollo Aleo</b>, rinvenuti in località Punta Alice grazie alla nota campagna di scavi dello studioso <b>Paolo Orsi</b>, che ha portato alla luce importanti testimonianze per l'<b>antica Krimisa</b>. Si sono create due macro sezioni: l’una dedicata agli <b>elementi architettonici superstiti degli edifici</b>, come i rivestimenti in terracotta dell’architrave del tempio arcaico, l’altra riservata agli <b>oggetti connessi alle pratiche devozionali</b> ma anche a quelli legati alla vita quotidiana del luogo di culto che dall’arcaismo arrivano fino al periodo ellenistico, come ex-voto e vasellame di uso comune.</p>
+<p><a href="list-items.html" title="Link al Catalogo">Visita il catalogo!</a></p>
+</div>
+</section>
+<section>
+<div class="third-section-index">
+<h2>Il progetto</h2>
+<p>Il catalogo del Museo Civico Archeologico è un progetto del Digital Humanities Advanced Research Center (/DH.ARC) dell'Università di Bologna. Gli obiettivi principali del progetto sono la catalogazione, la metadatazione, la preservazione e la valorizzazione di oggetti multimediali che fanno parte del patrimonio culturale dell'antica Magna Grecia.</p>
+<p><a href="#" title="Link all'introduzione">Link all'introduzione!</a></p>
+</div>
+</section>
+
+<!-- Slideshow container -->
+<div class="slideshow-container-index">
+  <div class="mySlides fade">
+    <img src="immagini/tempio.jpeg" style="width:70%">
+  </div> 
+  <div class="mySlides fade">
+    <img src="immagini/apollo.jpeg" style="width:70%">
+  </div>
+  <div class="mySlides fade">
+    <img src="immagini/demetra.jpeg" style="width:70%">   
+  </div>
+  <div class="mySlides fade">
+    <img src="immagini/demetra1.jpg" style="width:70%">   
+  </div> 
+  <div class="mySlides fade">
+    <img src="immagini/demetra2.jpeg" style="width:70%">
+  </div>  
+  <div class="mySlides fade">
+    <img src="immagini/anfore.jpeg" style="width:70%">
+  </div> 
+  <div class="mySlides fade">
+    <img src="immagini/img2.jpeg" style="width:70%">
+  </div>
+  
+  <!-- Next and previous buttons -->
+  <a class="prev-index" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next-index" onclick="plusSlides(1)">&#10095;</a>
+  
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<section>
+<div class="article-index">
+<h1>Gli strumenti per sfogliare il catalogo</h1>
+<p-1><h2>Filtri di ricerca</h2>Scegli la categoria di ricerca più adatta alle tue esigenze!</p-1>
+<p><a href="divinità.html">Divinità</a><a href="#">Arte antica</a><a href="#">Architettura arcaica</a></p>
+<p-1><h2>Linea del tempo</h2>Scopri a quale età risalgono i manufatti della raccolta utilizzando la linea del tempo  
+<p><a href="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=11JwNRSeKfCMvC5Mp7glqStiNq0dsmcog1cMI4W7rgQw&font=Default&lang=en&initial_zoom=2&height=650" title="Linea del tempo">Scopri di più!</p></a></p-1>
+<p-1><h2>Catalogo</h2>Sfoglia la raccolta delle opere d'arte presenti all'interno del museo e scopri qual è la loro storia 
+<p><a href="list-items.html" target="_blank" title="Catalogo">Scopri di più!</p></a></p-1>
+</div>
+</section>
+<footer-index>
+<div class="footer-index">
+&copy;Carlotta Latella 2024 - Corso di Digital Humanities e Patrimonio culturale
+</div>
+</footer>
+</body>
+</html>

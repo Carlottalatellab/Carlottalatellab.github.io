@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Busto di Demetra</title>
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-witdh, initial-scale=1"  />
+	<meta name="DC.Title" content="Museo Civico Archeologico Cirò Marina">
+    <meta name="DC.Creator" content="Carlotta Latella">
+    <meta name="DC.Date" content="giugno 2024">
+    <meta name="DC.Subject" content="arte, antica grecia, magna grecia, catalogo">
+    <meta name="DC.Language" content="it">
+    <meta name="DC.Publisher" content="Università di Bologna">
+    <meta name="DC.Format" content="HTML">
+    <meta name="DC.Type" content="Sito web">
+    <meta name="DC.Rights" content="Accesso libero Creative Commons">
+	<link rel="stylesheet" href="style.css"  />
+</head>
+<body>
+<style>
+ body {
+  background-image: url("immagini/im4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+<header>
+<div class="header-catalogo">
+<h3>Museo Civico Archeologico Cirò Marina</h3>
+</div>
+<div class="navbar">
+<a href="index.html" title="Link alla Home">Home</a>
+<a href="#" title="Link all'Introduzione">Introduzione</a>
+<a href="list-items.html" title="Link al Catalogo">Catalogo</a>
+</div>
+</header>
+<div class="row">
+  <div class="left">
+<input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Cerca..." title="Cerca...">
+
+<ul id="myMenu">
+  <li><a href="index.html">La storia</a></li>
+  <li><a href="index.html">Scavi e Reperti</a></li>
+  <li><a href="index.html">Il progetto</a></li>
+  <li><a href="#">Linea del Tempo</a></li>
+  <li><a href="#" class="active">Catalogo</a></li>
+</ul>
+</div>
+<script>
+function myFunction() {
+  // Declare variables
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("mySearch");
+  filter = input.value.toUpperCase();
+  ul = document.getElementById("myMenu");
+  li = ul.getElementsByTagName("li");
+
+  // Loop through all list items, and hide those who don't match the search query
+  for (i = 0; i < li.length; i++) {
+    a = li[i].getElementsByTagName("a")[0];
+    if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+    } else {
+      li[i].style.display = "none";
+    }
+  }
+}
+</script>
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="immagini/demetra2.jpeg" style="width:100%">   
+  </div>
+
+  <div class="mySlides fade">
+    <img src="immagini/demetra1.jpg" style="width:100%">
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<div class="card-header">
+  <div class="container-header">
+    <p>Questo busto in terracotta del VIII sec a.C. raffigura Demetra, dea protrettrice del raccolto per la cultura della Magna Grecia; la statua è stata rinvenuta durante il noto scavo per il ritrovamento della Necropoli sotterranea nei pressi di Punta Alice, Cirò Marina (KR)</p>
+  </div>
+</div>
+<div class="card-body">
+  <div class="container-body">
+  <h4>Titolo:</h4>
+  <p> Busto di <a href="https://www.getty.edu/cona/CONAIconographyRecord.aspx?iconid=901000683" title="vedi su IA">Demetra<sup>IA</sup> - <a href="https://www.treccani.it/enciclopedia/demetra_(Enciclopedia-Italiana)/" title="Demetra">Demetra nella Magna Grecia<sup>Treccani</sup></a></p>
+  <h4>Data:</h4>
+  <p> VII sec. a.C.</p>
+  <h4>Autore di contributo secondario:</h4>
+  <p>Associazione Nazionale Piccoli Musei</p>
+  <h4>Codice identificativo:</h4>
+  <p>mcacmm725</p>
+  <h4>Tipologia di oggetto:</h4>
+  <p>Statua votiva - <a href="https://it.wikipedia.org/wiki/Religioni_misteriche" title="Per saperne di più">Le Religioni misteriche<sup>Wikipedia</sup></a></p>
+  <h4>Materiale:</h4>
+  <p><a href="https://www.getty.edu/vow/AATFullDisplay?find=terracotta&logic=AND&note=&english=N&prev_page=1&subjectid=300298634" title="vedi su AAT">Terracotta<sup>AAT</sup></a></p>
+  <h4>Dimensioni:</h4>
+  <p>56(h) x 30(b) x 21.5(p)</p>
+  <h4>Posizione attuale:</h4>
+  <p><a href="https://www.geonames.org/11952675/museo-civico-archeologico.html" title="vedi su GeoNames">Museo Civico Archeologico Cirò Marina<sup>GeoNames</sup></a></p>
+  </div>
+</div>
+<section>
+<div class="btn-group">
+  <button><a href="metadati.xml">XML-DC</a></button>
+  <button><a href="docTEI.xml">XML-TEI</a></button>
+</div>
+ </div>
+</section>
+<aside>
+<div class="dropdown">
+  <button class="dropbtn">Accedi alle altre opere</button>
+  <div class="dropdown-content">
+    <a href="#">Manufatti in ceramica</a>
+    <a href="#">Tempio</a>
+    <a href="#">Statua in marmo- Acrolito di Apollo Aleo</a>
+	<a href="#">Statuette votive - Demetra</a>
+	<a href="#">Dall'archivio - Il Museo nei primi anni dall'apertura</a>
+	<a href="#">Inaugurazione del nuovo allestimento - Il Museo si impreziosisce dei reperti dell'età Brettia e dell'Alto Medioevo</a>
+	<a href="#">Dall'archivio - L'ingresso del Museo nell'Associazione Nazionale Piccoli Musei</a>
+	<a href="#">Riapertura del Museo - Il servizio del Tg3 annuncia la riapertura del Museo dopo il periodo di lockdown</a>
+  </div>
+</div>
+</aside>
+
+<aside>
+<div class="dropdown-2">
+  <button class="dropbtn-2">Filtri</button>
+  <div class="dropdown-content-2">
+    <a href="divinità.html">Divinità</a>
+    <a href="#">Arte antica</a>
+    <a href="#">Architettura arcaica</a>
+  </div>
+</div>
+</aside>
+
+<div class="footer-1">
+&copy;Carlotta Latella 2024 - Corso di Digital Humanities e Patrimonio culturale
+</div>
+</body>
+</html>

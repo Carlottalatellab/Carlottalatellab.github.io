@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Il Museo Civico e Archeologico di Cirò Marina nelle cartoline di “Auguri all’Italia dai Piccoli Musei Narranti” </title>
+                <author>La Redazione</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>il Cirotano</publisher>
+                <date>2020-12-23</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Il Museo Civico e Archeologico di Cirò Marina nelle cartoline di “Auguri all’Italia dai Piccoli Musei Narranti”</title>
+                    <author>La Redazione</author>
+                    <publisher>il Cirotano</publisher>
+                    <date>2020-12-23</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="article">
+                <head></head>
+                <byline>
+                    <name type="author">Il Museo Civico e Archeologico di Cirò Marina nelle cartoline di “Auguri all’Italia dai Piccoli Musei Narranti”</name>
+                </byline>
+                <dateline>Cirò Marina, 2020-12-23</dateline>
+                <p>Il Museo entrerà a far parte del grande circuito dell’Associazione Nazionale Piccoli Musei.</p>
+                <p>Inizia un percorso per far rientrare il Museo Civico Archeologico di Cirò Marina nell’Associazione nazionale piccoli Musei. Un’associazione importante anche a livello internazionale che racchiude al suo interno oltre 200 piccoli musei che fanno rete. Il Presidente Dall’Ara con il sindaco Sergio Ferrari e l’Assessore Virginia Marasco iniziano una sinergia che ha importanti finalità.</p>
+                <p>L’iniziativa che ha promosso l’Associazione nazionale piccoli Musei denominata #Piccoli Musei Narranti racconta i piccoli musei: dalla Calabria alla Val D’Aosta, dal Friuli Venezia Giulia alla Sardegna, dalla Toscana alla Sicilia, diciotto regioni rappresentate e poco meno di 300 contributi audio-video pubblicati. Il Museo di Cirò Marina partecipa AUGURI ALL’ITALIA DAI PICCOLI MUSEI. In una nota del presidente si legge <quote>“Le nostre porte sono chiuse, ma i nostri cuori sono aperti: Auguri all’Italia dai Piccoli Musei”</quote></p>
+				<p>L’Associazione Nazionale Piccoli Musei è un’organizzazione scientifico-culturale che si propone dii promuovere una cultura gestionale dei piccoli musei che sia in grado di valorizzarne le specificità: dal legame con il territorio all’accoglienza, alle modalità espositive, alla capacità di offrire esperienze originali ai visitatori; promuovere la conoscenza; stimolare le Regioni e lo Stato a prevedere norme adeguate ai piccoli musei, ed a definire standard e profili professionali coerenti con la dimensione e la specificità dei piccoli musei; portare all’attenzione delle Istituzioni, locali e nazionali, i problemi dei piccoli musei al fine di preservare e tutelare il patrimonio archeologico, artistico, storico, culturale e scientifico in essi custodito; promuovere intese fra gli enti, le istituzioni e le associazioni similari per facilitare scambi di esperienze e materiali, nonché per la formulazione di normative comuni.</p>
+				<p>Il tutto in stretta collaborazione con l’Associazione Frammenti che a titolo volontario è custode del museo.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,18 @@
+<demetra-metadati xmlns="http://example.org/MyProject/"
+                  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                  xmlns:dc="http://purl.org/dc/elements/1.1/"
+                  xmlns:dcterms="http://purl.org/dc/terms/"
+                  xsi:schemaLocation="http://example.org/MyProject/ http://example.org/MyProject/schema.xsd">
+    <dc:title>Busto di Demetra</dc:title>
+    <dc:subject>statua votiva, demetra</dc:subject>
+    <dc:subject xsi:type="dcterms:IA">https://www.getty.edu/vow/AATFullDisplay?find=terracotta&amp;logic=AND&amp;note=&amp;english=N&amp;prev_page=1&amp;subjectid=300298634</dc:subject>
+    <dc:description>busto in terracotta lavorata raffigurante demetra risalente al VII secolo a.C. rinvenuto nella località di Punta Alice, Cirò Marina</dc:description>
+    <dc:date>VII a.C.</dc:date>
+    <dc:contributor>Associazione Nazionale Piccoli Musei</dc:contributor>
+    <dc:type>busto, terracotta</dc:type>
+    <dc:type xsi:type="dcterms:AAT">https://www.getty.edu/vow/AATFullDisplay?find=terracotta&amp;logic=AND&amp;note=&amp;english=N&amp;prev_page=1&amp;subjectid=300298634</dc:type>
+    <dc:format>digitale</dc:format>
+    <dc:identifier>mcacm725</dc:identifier>
+    <dc:coverage>Cirò Marina</dc:coverage>
+    <dc:coverage xsi:type="dcterms:GeoNames">https://www.geonames.org/2524979/ciro-marina.html</dc:coverage>
+</demetra-metadati>
