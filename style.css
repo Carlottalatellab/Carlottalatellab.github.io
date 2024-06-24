@@ -208,7 +208,7 @@ html, body {
 
 /* Hide the images by default */
 .mySlides {
-  display: block;
+  display: none;
 }
 
 /* Next & previous buttons */
@@ -741,7 +741,7 @@ color:white;
 
 /* Hide the images by default */
 .mySlides {
-  display: block;
+  display: none;
 }
 
 /* Next & previous buttons */
